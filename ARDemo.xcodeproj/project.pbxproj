@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1957D8552722C0CE0046FAC8 /* head.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1957D8542722C0CE0046FAC8 /* head.jpg */; };
+		1957D8572722C1DA0046FAC8 /* earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1957D8562722C1D90046FAC8 /* earth.jpg */; };
 		1984DFB9272186E30027273B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1984DFB8272186E30027273B /* AppDelegate.swift */; };
 		1984DFBB272186E30027273B /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 1984DFBA272186E30027273B /* art.scnassets */; };
 		1984DFBD272186E30027273B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1984DFBC272186E30027273B /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1957D8542722C0CE0046FAC8 /* head.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head.jpg; sourceTree = "<group>"; };
+		1957D8562722C1D90046FAC8 /* earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth.jpg; sourceTree = "<group>"; };
 		1984DFB5272186E30027273B /* ARDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1984DFB8272186E30027273B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1984DFBA272186E30027273B /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				1984DFB8272186E30027273B /* AppDelegate.swift */,
+				1957D8542722C0CE0046FAC8 /* head.jpg */,
+				1957D8562722C1D90046FAC8 /* earth.jpg */,
 				1984DFBA272186E30027273B /* art.scnassets */,
 				1984DFBC272186E30027273B /* ViewController.swift */,
 				1984DFBE272186E30027273B /* Main.storyboard */,
@@ -125,6 +131,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1984DFBB272186E30027273B /* art.scnassets in Resources */,
+				1957D8552722C0CE0046FAC8 /* head.jpg in Resources */,
+				1957D8572722C1DA0046FAC8 /* earth.jpg in Resources */,
 				1984DFC5272186E70027273B /* LaunchScreen.storyboard in Resources */,
 				1984DFC2272186E70027273B /* Assets.xcassets in Resources */,
 				1984DFC0272186E30027273B /* Main.storyboard in Resources */,
@@ -287,7 +295,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 562JMNMA93;
 				INFOPLIST_FILE = ARDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,7 +315,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 562JMNMA93;
 				INFOPLIST_FILE = ARDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
